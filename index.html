@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="layout :: layout(~{::title='Home', ~{::content='content'}})">
+<head>
+    <title>Home</title>
+</head>
+<body>
+<div th:fragment="content">
+    <h1>Welcome to the Task Management App</h1>
+    <p>This is a simple task management application.</p>
+</div>
+</body>
+</html>
